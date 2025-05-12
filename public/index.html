@@ -114,7 +114,7 @@
   
   
 
-<script src="/lib/jquery/jquery.slim.min.03cb160e3cfdb2667a2e2c80d283bebcf63ff8bbc4b629c9ab2babf6fae1d0c07ad470edae783efa4fabda2ac01c58d60e63b98b3c336be8208460f08f4354f5.js" integrity="sha512-A8sWDjz9smZ6LiyA0oO&#43;vPY/&#43;LvEtinJqyur9vrh0MB61HDtrng&#43;&#43;k&#43;r2irAHFjWDmO5izwza&#43;gghGDwj0NU9Q=="></script>
+<script src="/lib/jquery/jquery.slim.min.03cb160e3cfdb2667a2e2c80d283bebcf63ff8bbc4b629c9ab2babf6fae1d0c07ad470edae783efa4fabda2ac01c58d60e63b98b3c336be8208460f08f4354f5.js" integrity="sha512-A8sWDjz9smZ6LiyA0oO&#43;qDQIcnu&#43;iqdzlIs3X8Kesq8Z8R3rTYJP/pKExYhwQuzvQTw981NctzrwvdsErj9KppCAvaLw==" data-copy="复制" data-copied="已复制"></script>
 
 
 
@@ -172,7 +172,7 @@
   
 </head>
 <body
-  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-gradient-to-b from-neutral-50 to-neutral-100 text-neutral-900 dark:from-neutral-900 dark:to-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
   <div id="the-top" class="absolute flex self-center">
     <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
       href="#main-content"><span
@@ -373,18 +373,13 @@
   
   
     
-<article class="max-w-full prose dark:prose-invert">
+<article class="mx-auto max-w-full prose dark:prose-invert">
     <div class="relative">
-        <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
+        <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100 dark:bg-neutral-900"></div>
         <div class="mx-auto max-w-7xl p-0">
-            <div class="relative shadow-xl sm:overflow-hidden rounded-2xl">
-                <div class="absolute inset-0">
-                    
-                    
-                    
-                    
-                </div>
-                <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 flex flex-col items-center justify-center text-center">
+            <div class="relative overflow-hidden rounded-3xl border border-neutral-200/70 bg-white/80 shadow-xl backdrop-blur dark:border-neutral-700/60 dark:bg-neutral-900/70">
+                <div class="absolute inset-0 bg-gradient-to-br from-primary-500/10 via-transparent to-transparent"></div>
+                <div class="relative px-6 py-16 sm:px-10 sm:py-24 lg:py-32 lg:px-16 flex flex-col items-center justify-center text-center">
                     
                         
                         
@@ -394,23 +389,20 @@
                             
                                 
                             
-                            <img class="mb-2 rounded-full h-36 w-36" width="144" height="144"
+                            <img class="mb-4 rounded-full h-36 w-36 ring-4 ring-white/70 shadow-lg" width="144" height="144"
                                 alt="minetel" src="/img/blowfish_logo_hu_287064b58dc25159.png" />
                         
                     
-                    <h1 class="mb-2 text-4xl font-extrabold text-neutral-200">
+                    <h1 class="mb-3 text-4xl font-extrabold text-neutral-800 dark:text-neutral-100">
                         minetel
                     </h1>
-                    
-                    <h2 class="mt-0 mb-0 text-xl text-neutral-300">
+
+                    <h2 class="mt-0 mb-0 text-xl text-neutral-500 dark:text-neutral-300">
                         I&rsquo;m only human
                     </h2>
-                    
-                    <div class="mt-3 mb-10 text-2xl">
-                        
-                        <div class="flex flex-wrap">
-                            
-                            
+
+                    <div class="mt-5 mb-4 text-2xl">
+                        <div class="flex flex-wrap justify-center gap-3">
                             <a class="px-1 hover:text-primary-400 text-primary-300" href="https://github.com/mineteld" target="_blank"
                                 aria-label="Github" rel="me noopener noreferrer">
 
@@ -425,7 +417,10 @@
                         </div>
                         
                     </div>
-                    <section class="prose prose-invert"></section>
+
+                    <section class="prose prose-invert max-w-2xl text-neutral-600 dark:text-neutral-300">
+                        <!-- 保持原有内容区域，不做大改 -->
+                    </section>
                 </div>
             </div>
         </div>
@@ -481,12 +476,12 @@
   <script type="text/javascript" src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
   
   
-  <section class="powerby">
+  <section class="powerby mt-4 rounded-2xl border border-neutral-200/70 bg-white/70 px-4 py-3 text-sm text-neutral-600 shadow-sm backdrop-blur dark:border-neutral-700/60 dark:bg-neutral-900/60 dark:text-neutral-300">
         使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建,&nbsp;
         主题由 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.27.0">blowfish</a></b>改版, &nbsp;<br/>
         浏览量： <span class="waline-index-count waline-pageview-count" waline-url="https://pinglun.minetel.xyz/" data-path="/" style="font-weight: bold;">0</span>, &nbsp;
         本站已苟活： <span id="over-Time" style="font-weight: bold;">0day</span>
-</section>
+  </section>
 
 <script>
   
@@ -565,7 +560,7 @@
 
       </button>
     </header>
-    <section class="flex-auto px-2 overflow-auto">
+    <section class="flex-auto overflow-auto">
       <ul id="search-results">
         
       </ul>
